@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Srikanth Nakka | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    color:#fff;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 30px;
+    background:#fff;
+    color:#2563eb;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:70px 0;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#0f172a;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#2563eb;
+}
+
+ul{
+    list-style:none;
+}
+
+ul li{
+    padding:10px;
+    background:#fff;
+    margin-bottom:10px;
+    border-left:5px solid #2563eb;
+    border-radius:5px;
+}
+
+#contact{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+#contact h2{
+    color:white;
+}
+
+.contact-links a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+
+footer{
+    background:#020617;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2.2rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+    <div class="container">
+        <h1>Srikanth Nakka</h1>
+        <p>Lead / Architect Automation Engineer</p>
+        <p>15+ Years in Test Automation, QA Engineering, CI/CD, Web & API Testing</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p style="text-align:center; max-width:800px; margin:auto;">
+            Results-oriented Software Engineering professional with 15+ years of experience in
+            Automation Engineering, Quality Assurance, Framework Development, CI/CD Pipelines,
+            API Testing, Cloud Technologies, and Enterprise Web Applications.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="container">
+        <h2>Technical Skills</h2>
+
+        <div class="grid">
+            <div class="card">Java, Selenium, Playwright, Cypress</div>
+            <div class="card">REST Assured, API Automation</div>
+            <div class="card">Jenkins, Docker, Kubernetes</div>
+            <div class="card">AWS, Azure Cloud</div>
+            <div class="card">Oracle, MySQL, MSSQL</div>
+            <div class="card">Git, GitHub, Bitbucket</div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+        <h2>Professional Experience</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>SIDE International Studios</h3>
+                <p><strong>Lead / Architect Automation Engineer</strong></p>
+                <p>2022 – 2025</p>
+            </div>
+
+            <div class="card">
+                <h3>Oracle India Development Center</h3>
+                <p><strong>Senior QA Engineer / QA Analyst</strong></p>
+                <p>2016 – 2022</p>
+            </div>
+
+            <div class="card">
+                <h3>United Online Software Development</h3>
+                <p><strong>Senior Quality Engineer</strong></p>
+                <p>2010 – 2016</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="achievements">
+    <div class="container">
+        <h2>Achievements</h2>
+
+        <ul>
+            <li>🏆 Certificate of Excellence – Q1 2023</li>
+            <li>🏆 Oracle Performance Rating – Consistently Exceeds Expectations</li>
+            <li>🏆 CloudFest 2017 Hackathon – 3rd Place Contribution</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+
+        <div class="contact-links">
+            <p>Email: <a href="mailto:sree.cs10@gmail.com">sree.cs10@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/srikanth-nakka" target="_blank">linkedin.com/in/srikanth-nakka</a></p>
+            <p>GitHub: <a href="https://github.com/sreegithub89" target="_blank">github.com/sreegithub89</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Srikanth Nakka | Automation Architect</p>
+</footer>
+
+</body>
+</html>
