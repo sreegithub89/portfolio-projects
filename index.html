@@ -143,6 +143,16 @@ footer{
 
 <body>
 
+    <!-- Overlay -->
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <h2>Welcome!</h2>
+    <p>Please enter your name:</p>
+    <input type="text" id="visitorName" placeholder="Your name">
+    <button onclick="submitName()">Submit</button>
+  </div>
+</div>
+<div id="content" style="display:none;">
 <header class="hero">
     <div class="container">
         <h1>Srikanth Nakka</h1>
@@ -217,7 +227,7 @@ footer{
         </ul>
     </div>
 </section>
-
+<div id="content" style="display:none;">
 <section id="contact">
     <div class="container">
         <h2>Contact</h2>
